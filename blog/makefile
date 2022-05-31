@@ -6,8 +6,11 @@ print:
 
 db-help:
 	docker-compose run api db 
+db-setup:
+	# works
+	docker-compose run api db setup
 db-reset:
-	# this will not work because the API server is using it.
+	# does not work: will not work because the API server is using it.
 	docker-compose run api db reset
 db-migrate-stat:
 	docker-compose run api db migrate status
