@@ -6,13 +6,9 @@ A collection of projects / experiments with graphjin: https://github.com/dosco/g
 
 Install it locally via the makefile so that you can use the "new" function for creating new projects. 
 
-Once a project has been generated, use docker-compose. See Blog for example.
 
+## Usage
 
-## Use
+Once a project has been generated, use docker-compose. See Blog project for example.
 
-open the proejct in vscode
-
-
-
-
+cd into the project and then open in vscode.
